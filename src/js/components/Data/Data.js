@@ -269,17 +269,60 @@ const data=[
          ],
          footer:[
              {
-                about_heading: "ABOUT STORE",
-                about_para: "ABOUT STORE",
+                 about_heading: "ABOUT STORE",
+                 description: "ABOUT STORE",
              },
              {
-                customer_heading: "CUSTOMER CARE"
-                
-             }
+                customer_heading: "CUSTOMER CARE",
+                customer_links:[
+                    "Contact",
+                        "Returns/Exchange",
+                        "Gift Voucher",
+                        "Wishlist",
+                        "Special",
+                        "Customer Services",
+                        "Site maps"
+                ]
+             },
+             {
+                customer_heading: "INFORMATION",
+                info_links:[
+                    "About us",
+                        "Delivery Information",
+                        "Privacy Policy",
+                        "Support",
+                        "Order Tracking"
+                        
+                ]
+            },
+             {
+                customer_heading: "NEWS",
+                news_links:[
+                    "Blog",
+                    "Press",
+                    "Exhibitions",
+                    
+                        
+                ]
+             },
+             {
+                 customer_heading: "CONTACT INFORMATION",
+                contact_links:[
+                        "291 South 21th Street ,Suite 721 New York NY 10016",
+                        "+ 1235 2355 98",
+                        "info@yoursite.com",
+                        "yoursite.com"
+                        
+                        
+                    ]
+                },
+                {
+                    copyright:"Copyright ©2019 All rights reserved | This template is made with  by Colorlib Demo Images: Unsplash , Pexels.com"
+                }
          ]
-
          
-    },
-  
-]
-export default data
+         
+        },
+        
+    ]
+    export default data
